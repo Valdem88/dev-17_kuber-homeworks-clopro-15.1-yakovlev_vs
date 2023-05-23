@@ -33,7 +33,7 @@ Resource Terraform для Yandex Cloud:
 
 #### Решение
 
-- [Terraform](https://github.com/wbitt/Network-MultiTool) 
+- [Terraform](https://github.com/Valdem88/dev-17_kuber-homeworks-clopro-15.1-yakovlev_vs/tree/main/terraform) 
 
 
 ```bash
@@ -226,6 +226,8 @@ Changes to Outputs:
 ```
 
 ```bash
+root@server1:~/terraform# terraform apply -auto-approve
+...........................................
 .................................
 yandex_compute_instance.private-vm: Creating...
 yandex_compute_instance.nat-instance: Still creating... [10s elapsed]
@@ -258,17 +260,22 @@ internal_ip_address_nat_vm = "192.168.10.254"
 internal_ip_address_private_vm = "192.168.20.26"
 internal_ip_address_public_vm = "192.168.10.29"
 ```
+
 Виртуальные машины
 ![](pic/vm_yc.jpg)
+
 
 Подсети
 ![](pic/subnet.jpg)
 
+
 Таблицы маршрутизации
 ![](pic/route_table.jpg)
 
+
 Проверка интернета с public
 ![](pic/public.jpg)
+
 
 Проверка интернета с private
 ![](pic/private.jpg)
