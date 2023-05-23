@@ -274,10 +274,12 @@ internal_ip_address_public_vm = "192.168.10.29"
 
 
 Проверка интернета с public
+
 ![](pic/public.jpg)
 
 
 Проверка интернета с private
+
 ![](pic/private.jpg)
 
 ```bash
